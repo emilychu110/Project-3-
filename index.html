@@ -1,0 +1,52 @@
+<html>
+<head> 
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="code/style.css">
+</head>
+<body>
+<form>
+	<h1>Sing Up for our Newsletter</h1>
+
+	<p>Get the latest news on how your code is doing right in your inbox </p>
+<div id="id">
+<fieldset>
+	<legend><b>Contact information </b></legend>
+
+			Full Name <input type="text" id="name" name="user_name"> <br>
+			Email Address <input type="text" id="mail" name="user_email"> <br>
+			Phone Number <input type="text" id="number" name="user_number"> <br>
+			Street Address <input type="text" id="address" name="user_address"> <br>
+			City <input type="text" id="location" name="user_location"><br>
+			State <select type="text" id="state" name="user_state"> <option id="state" value="state">State</option></select><br>
+			Zipcode <input type="text" id="zipcode" name="user_zipcode"> <br>
+			</fieldset>
+			</div>
+<div id="checkbox">
+<fieldset>
+
+	<legend><b>Newsletter </b></legend>
+
+	<p>Select the newsletter you would like to receive</p>
+			<input type="checkbox" id="HTMLNews" value="newsletter_htmlnews" name="user_newsletter">
+			<label class="light" for="htmlnews">HTML Newsletter </label> <br>
+			<input type="checkbox" id="CSSNews" value="newesletter_CSSnews" name="user_cssnewsletter">
+			<label class="light" for="cssnews"> CSS Newsletter </label><br>
+			<input type="checkbox" id="JavascriptNews" value="newsletter_javescriptnews" name="user_newsletter">
+			<label class="light" for="javascriptnews">Javascript Newsletter </label><br>
+	<p>Newsletter format </p>
+			<input type="radio" id="HTML" value="newsletter" name="user">
+			<label for="newsletter" class="light">HTML </label><br>
+			<input type="radio" id="Plaintext" value="newsletter" name="user">
+			<label for="newsletter" class="light">Plain text</label><br>
+		</fieldset>
+			</div>
+			<fieldset>
+	<legend><b>other topics you would like to hear about</b></legend>
+
+	<textarea id="bio" name="user_bio"></textarea><br> </fieldset>
+
+	<button type="submit">Sign up</button>
+
+</form>
+</body>
+</html>
